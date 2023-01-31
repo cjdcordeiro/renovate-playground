@@ -1,3 +1,3 @@
-FROM php:8.0-fpm
+FROM public.ecr.aws/ubuntu/ubuntu:jammy
 
 ENV DOCKERIZE_VERSION 0.6.1
