@@ -1,3 +1,3 @@
-FROM php:8.0-fpm
+FROM ubuntu:hirsuite
 
 ENV FOO=1
