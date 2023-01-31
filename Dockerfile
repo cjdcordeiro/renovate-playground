@@ -1,3 +1,3 @@
-FROM ccordeiro/ubuntu:1
+FROM php:8.0-fpm
 
 ENV FOO=1
