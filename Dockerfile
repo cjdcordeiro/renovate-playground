@@ -1,3 +1,2 @@
-FROM public.ecr.aws/ubuntu/ubuntu:jammy
+FROM ccordeiro/ubuntu:jammy@sha256:eecba05a9ccbc219cb0f0dd280034c6ee1aab0b00b458e680f9c4efc6ca3feda
 
-ENV DOCKERIZE_VERSION 0.6.1
