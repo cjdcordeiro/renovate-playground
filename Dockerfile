@@ -1,2 +1,3 @@
-FROM ccordeiro/ubuntu:jammy@sha256:eecba05a9ccbc219cb0f0dd280034c6ee1aab0b00b458e680f9c4efc6ca3feda
+FROM ccordeiro/ubuntu:1
 
+ENV FOO=1
