@@ -1,11 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base",
-    "docker:pinDigests"
-  ],
-  "docker": {
-    "pinDigests": true
-  },
-  "prHourlyLimit": 0
+    "regexManagers": [
+        {
+            "fileMatch": [
+                "22.04",
+              "20.04"
+            ],
+            "depNameTemplate": "public.ecr.aws/ubuntu/ubuntu",
+            "datasourceTemplate": "docker"
+        }
+    ]
+
 }
