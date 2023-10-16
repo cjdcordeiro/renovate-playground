@@ -1,11 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "regexManagers": [
+    "customManagers": [
         {
+                "customType": "regex",
+
             "fileMatch": [
                 "22.04",
               "20.04"
             ],
+                "matchStringsStrategy": "any",
+      "matchStrings": [
+        "(?<depName>\\S*):(?<currentValue>\\S*)"
+      ],
             "depNameTemplate": "public.ecr.aws/ubuntu/ubuntu",
             "datasourceTemplate": "docker"
         }
