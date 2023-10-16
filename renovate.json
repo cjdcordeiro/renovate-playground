@@ -12,7 +12,6 @@
       "matchStrings": [
         "(?<depName>\\S*):(?<currentValue>\\S*)"
       ],
-            "depNameTemplate": "public.ecr.aws/ubuntu/ubuntu",
             "datasourceTemplate": "docker"
         }
     ]
