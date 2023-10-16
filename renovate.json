@@ -10,7 +10,7 @@
             ],
                 "matchStringsStrategy": "any",
       "matchStrings": [
-        "(?<depName>\\S*):(?<currentValue>\\S*)"
+        "(?<depName>.*?):(?<currentValue>.*?)@(?<currentDigest>sha256:[a-f0-9]+)\\s"
       ],
             "datasourceTemplate": "docker"
         }
