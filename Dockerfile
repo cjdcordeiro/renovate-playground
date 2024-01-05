@@ -1,2 +1,2 @@
-FROM ccordeiro/ubuntu:jammy@sha256:965fbcae990b0467ed5657caceaec165018ef44a4d2d46c7cdea80a9dff0d1ea
+FROM ccordeiro/ubuntu:jammy@sha256:d4981044f48548477c259b7cd36b50a24f424ddb58e3810f04a85702f1c57145
 
