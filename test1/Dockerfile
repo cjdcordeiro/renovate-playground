@@ -1,2 +1,2 @@
-ARG BASE_IMAGE=public.ecr.aws/lts/ubuntu:focal@sha256:7e9558e1203a9a2b0967554abf9ebdc5552f29013b01f6e7271bf2d776d51234
+ARG BASE_IMAGE=public.ecr.aws/lts/ubuntu:noble@sha256:bd47de2dd50fdb528b59d3a3eff2d1a8618f8e1da8ed8e2daebda71da9c0062f
 FROM ${BASE_IMAGE} AS pro_base
