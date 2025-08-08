@@ -3,6 +3,11 @@
   "extends": [
     "config:recommended"
   ],
+  "major": {
+    "enabled": false
+  },
+  "automerge": true,
+  "automergeType": "pr",
   "packageRules": [
     {
       "matchManagers": [
