@@ -17,10 +17,11 @@
         "docker-bake.hcl$"
       ],
       "matchStrings": [
-        "#\\s*target:\\s+(\\s|\"|')?(?<currentValue>.+?)(\\s|\"|'|$)"
+        "#\\s*target:\\s+(?<depName>[^\\s:@]+(?:/[^\\s:@]+)*):(?<currentValue>[^\\s@]+)(?:@sha256:(?<currentDigest>[a-f0-9]{64}))?"
       ],
       "depNameTemplate": "public.ecr.aws/lts/ubuntu",
       "datasourceTemplate": "docker"
     }
   ]
 }
+
