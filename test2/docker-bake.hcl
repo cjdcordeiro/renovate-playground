@@ -1,5 +1,5 @@
 # Note: We use renovate to trigger builds of this image with the comment below.
-# public.ecr.aws/lts/ubuntu:jammy@sha256:0890b02df9b3515958f1e181d15001b7015cee0e0b0eaad7f6dc6796b1de3171
+# public.ecr.aws/lts/ubuntu:jammy@sha256:7e421ec89eccbc7b0b38c0e4cea41548b4bd0d4cff63c42355fadd0369f49fa0
 
 variable "IMAGE_NAME" {
     default = "ubuntu:24.04"
